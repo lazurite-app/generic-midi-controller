@@ -1,6 +1,6 @@
 {
   "name": "generic-midi-controller",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A common interface for handling different MIDI controller input/output devices",
   "main": "index.js",
   "license": "MIT",
