@@ -2,9 +2,12 @@
   "name": "generic-midi-controller",
   "version": "1.0.1",
   "description": "A common interface for handling different MIDI controller input/output devices",
-  "main": "index.js",
+  "main": "bundle.js",
+  "browser": "index.js",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "prepublish": "babel index.js -o bundle.js"
+  },
   "author": {
     "name": "Hugh Kennedy",
     "email": "hughskennedy@gmail.com",
@@ -35,5 +38,8 @@
   "homepage": "https://github.com/lazurite-app/generic-midi-controller",
   "bugs": {
     "url": "https://github.com/lazurite-app/generic-midi-controller/issues"
+  },
+  "devDependencies": {
+    "babel": "^5.5.8"
   }
 }
