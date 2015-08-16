@@ -16,7 +16,7 @@ Creates a `Controller` instance. Input/output handling is customizable using the
 
 #### `input`
 
-This function should return an object where each property contains an array of functions for determining updated values on receiving MIDI input messages. Optional.
+An object where each property contains an array of functions for determining updated values on receiving MIDI input messages. Optional.
 
 ``` javascript
 const controller = GenericMIDI({
@@ -45,7 +45,7 @@ controller.inputs.buttons[3] // 38
 
 #### `output`
 
-This function should return an object where each property contains an array of functions for triggering output MIDI messages using `send`. Optional.
+An object where each property contains an array of functions for triggering output MIDI messages using `send`. Optional.
 
 ``` javascript
 const controller = GenericMIDI(null, {
