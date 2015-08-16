@@ -1,6 +1,6 @@
 {
   "name": "generic-midi-controller",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A common interface for handling different MIDI controller input/output devices",
   "main": "bundle.js",
   "browser": "index.js",
